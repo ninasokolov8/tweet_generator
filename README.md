@@ -1,13 +1,13 @@
-# Twitt Generator Project
+# Tweet Generator Project
 
-Thank you for using the Twitt Generator project! This README will guide you through the setup and running of the project.
+Thank you for using the Tweet Generator project! This README will guide you through the setup and running of the project.
 
 ## Project Structure
 
 The project is divided into two main parts: the frontend and the backend.
 
-- `frontend/`: Contains the frontend code for the Twitt Generator.
-- `backend/`: Contains the backend code for the Twitt Generator.
+- `frontend/`: Contains the frontend code for the Tweet Generator.
+- `backend/`: Contains the backend code for the Tweet Generator.
 
 ## Getting Started
 
@@ -55,9 +55,9 @@ To get started, follow these steps:
 4. **Using the Twitt Generator:**
 
    - Open your web browser and navigate to http://localhost:3000 (the frontend).
-   - You can use the Twitt Generator interface to generate tweets by filling out the form and clicking the "Generate Tweet" button.
+   - You can use the Tweet Generator interface to generate tweets by filling out the form and clicking the "Generate Tweet" button.
 
-5. **Enjoy using the Twitt Generator!**
+5. **Enjoy using the Tweet Generator!**
 
 ### Running the Setup Script (Windows, macOS, Linux)
 
