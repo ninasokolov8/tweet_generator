@@ -1,4 +1,4 @@
-// TweetForm.js
+
 import React, { useState, useEffect } from 'react';
 import './TweetForm.css';
 import { FormGroup, InputGroup, Button, TextArea, Intent, Callout } from "@blueprintjs/core";
@@ -18,10 +18,10 @@ function TweetForm({ onGenerate }) {
   const [audienceOptions, setAudienceOptions] = useState([]);
   const [industryOptions, setIndustryOptions] = useState([]);
   const [productTypeOptions, setProductTypeOptions] = useState([]);
-  const [newLink, setNewLink] = useState(''); // Add newLink state
-  const [newImage, setNewImage] = useState(''); // Add newImage state
-  const [isLinkModalOpen, setIsLinkModalOpen] = useState(false); // Add isLinkModalOpen state
-  const [isImageModalOpen, setIsImageModalOpen] = useState(false); // Add isImageModalOpen state
+  const [newLink, setNewLink] = useState(''); 
+  const [newImage, setNewImage] = useState(''); 
+  const [isLinkModalOpen, setIsLinkModalOpen] = useState(false); 
+  const [isImageModalOpen, setIsImageModalOpen] = useState(false); 
 
   useEffect(() => {
     const fetchConfigData = async () => {
