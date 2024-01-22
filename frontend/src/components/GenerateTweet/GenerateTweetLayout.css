@@ -1,0 +1,67 @@
+/* GenerateTweetLayout Component CSS */
+
+/* CSS for styling the tweet layout */
+.tweet-layout {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.tweet-text {
+    padding: 8px 0;
+}
+
+.tweet-preview {
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+/* Style for tweet content */
+.tweet-layout p {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Style for links in the tweet */
+.tweet-layout a {
+    text-decoration: none;
+    color: #1da1f2;
+    font-weight: bold;
+}
+
+/* Style for tweet images */
+.tweet-media img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* CSS for adjusting image size for specific audience types */
+.tweet-layout.youth .tweet-media img {
+    max-width: 100%;
+    height: auto;
+}
+
+.tweet-layout.professionals .tweet-media img {
+    max-width: 80%;
+    height: auto;
+}
+
+.tweet-layout.global .tweet-media img {
+    max-width: 90%;
+    height: auto;
+}
+
+.tweet-layout.parents .tweet-media img {
+    max-width: 100%;
+    height: auto;
+}

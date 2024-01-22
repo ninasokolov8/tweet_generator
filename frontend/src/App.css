@@ -1,0 +1,73 @@
+/* Center everything */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f0f0f0; /* Add your background color */
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh; /* Center content vertically */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Center the h1 */
+.centered {
+  text-align: center;
+}
+
+/* Styles for your App */
+.App {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff; /* Add your background color */
+  border-radius: 10px; /* Add border radius for a container effect */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a card effect */
+  text-align: center; /* Center the content horizontally */
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex; /* Add flex display to center vertically */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center child elements horizontally */
+}
+
+h1 {
+  text-align: center;
+  margin: 0; /* Remove margin to ensure vertical alignment */
+}
+
+/* Add a fixed height to prevent jumping */
+.App-header {
+
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
